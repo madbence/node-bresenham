@@ -4,7 +4,7 @@
   "description": "Bresenham's line algorithm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec -r should test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/madbence/node-bresenham/issues"
   },
-  "homepage": "https://github.com/madbence/node-bresenham"
+  "homepage": "https://github.com/madbence/node-bresenham",
+  "devDependencies": {
+    "should": "^3.3.1",
+    "mocha": "^1.18.2"
+  }
 }
