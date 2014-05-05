@@ -1,4 +1,4 @@
-# node-bresenham
+# node-bresenham [![Build Status](https://travis-ci.org/madbence/node-bresenham.svg?branch=master)](https://travis-ci.org/madbence/node-bresenham)
 
 [Bresenham's line algorithm](http://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm)
 in node.
