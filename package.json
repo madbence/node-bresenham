@@ -1,6 +1,6 @@
 {
   "name": "bresenham",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bresenham's line algorithm",
   "main": "index.js",
   "scripts": {
