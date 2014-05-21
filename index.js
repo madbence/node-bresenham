@@ -1,4 +1,8 @@
 module.exports = function(x0, y0, x1, y1, fn) {
+  if(!fn) {
+    var arr = [];
+    fn = function(x, y) { arr.push({ x: x, y: y }); };
+  }
   var dx = x1 - x0;
   var dy = y1 - x0;
   var adx = Math.abs(dx);
@@ -25,4 +29,5 @@ module.exports = function(x0, y0, x1, y1, fn) {
       }
     }
   }
+  return arr;
 };
