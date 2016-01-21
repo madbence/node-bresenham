@@ -32,11 +32,11 @@ If you `require('bresenham/generator')`, you can use the generator API.
 Creates a generator that yields every point between `(x0, y0)` and `(x1, y1)`.
 
 ```js
-var line = bresenham(1, 2, 3, 4);
-do {
-  var point = line.next().value;
-  // do something
-} while(point);
+import bresenham from 'bresenham/generator';
+
+for (const point of bresenham(1, 2, 3, 4)) {
+  // ...
+}
 ```
 
 ## License
